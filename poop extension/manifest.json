@@ -1,0 +1,14 @@
+{
+	"name": "poop extension",
+	"version": "6.9",
+	"description": "pooping",
+	"permissions": ["storage"],
+	"background": {
+		"scripts": ["pooping.js"],
+		"persistent": false
+	},
+	"page_action": {
+		"default_popup": "pooping.html"
+	},
+	"manifest_version": 2
+}
